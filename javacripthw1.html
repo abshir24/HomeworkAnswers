@@ -1,0 +1,31 @@
+<html>
+    <body>
+      <h1>Java Script HW1</h1>
+
+      <div id="section">
+        
+      </div>
+
+      <p id = "randomNum"></p>
+    </body>
+
+    <script>
+      //Calls retrieves the data from the body tag by calling on
+      // id 
+      var section = document.getElementById("section");
+      
+      console.log(section)
+      // adds 3 lines of text to the body tag
+      section.innerHTML = '<p>Line 1</p>'+ 
+      '<p>Line 2</p>' + '<p>Line 3</p>'
+
+      //create random number
+      var randomNum = Math.random() *10
+      
+      //add random number to existing p tag
+
+      var randomHtml = document.getElementById("randomNum")
+
+      randomHtml.innerHTML = '<p>' + randomNum + '</p>';
+    </script>
+</html>
