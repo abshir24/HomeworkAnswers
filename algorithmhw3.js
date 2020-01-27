@@ -21,4 +21,4 @@ function randomNumbers(value){
     }
 }
 
-randomNumbers(3)//this should print 3 random numbers to your console.
+randomNumbers(3)//this should print 3 random numbers to your console
